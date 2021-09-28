@@ -14,5 +14,4 @@ for (let i = 0; i < 10; i++) {
 
   ul.appendChild(li);
 }
-
 document.getElementById('root').appendChild(ul);
