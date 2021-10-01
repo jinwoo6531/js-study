@@ -5,7 +5,6 @@ ajax.open('GET', NEWS_URL, false);
 ajax.send();
 
 const newsFeed = JSON.parse(ajax.response);
-
 const ul = document.createElement('ul');
 
 for (let i = 0; i < 10; i++) {
